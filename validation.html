@@ -8,10 +8,10 @@
 	<form onsubmit=" return validation()">
 		
 
-		UserName:<input type="text" value="" name="username.... " id="user"><span id="username"></span> <br> <br>
+		UserName:<input type="text" value="" name="username.... " id="user"> <span id="username"></span> <br> <br>
 
-	    Password:<input type="text" value="" name="password.... " id="pass"><span id="password"></span>
-	    <br>
+	    Password:<input type="text" value="" name="password.... " id="pass"> <span id="password"></span>
+	    <br><br>
 	    <input type="submit" name="submit">
 	</form>
 	<script type="text/javascript">
@@ -25,8 +25,17 @@
 			var y=document.getElementById("pass").value;
 
 			if (x=="") {
-				alert(" plz fill the username or password");
+
+				document.getElementById("username").innerHTML="plz fill username";
 				return false;
+			           }
+			if(y==""){
+				document.getElementById("password").innerHTML="plz fill password";			
+				return false;
+			         }
+				else
+					alert("thnx for Login");
+				return true;
 			}
 		}
 	</script>
