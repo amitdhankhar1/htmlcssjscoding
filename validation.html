@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>validation</title>
+</head>
+<body>
+
+	<form onsubmit=" return validation()">
+		
+
+		UserName:<input type="text" value="" name="username.... " id="user"><span id="username"></span> <br> <br>
+
+	    Password:<input type="text" value="" name="password.... " id="pass"><span id="password"></span>
+	    <br>
+	    <input type="submit" name="submit">
+	</form>
+	<script type="text/javascript">
+		
+
+		function validation( )
+		{
+
+
+			var x=document.getElementById("user").value;
+			var y=document.getElementById("pass").value;
+
+			if (x=="") {
+				alert(" plz fill the username or password");
+				return false;
+			}
+		}
+	</script>
+
+</body>
+</html>
