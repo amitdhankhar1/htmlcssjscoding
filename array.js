@@ -48,5 +48,5 @@ var arr=[1,4,2,5,3,6,9,7,8];
 
 //arr=arr.sort();
 //arr=arr.concat(3,5);
-arr=arr.math(sqrt);
+arr=arr.math();
 console.log(arr);
