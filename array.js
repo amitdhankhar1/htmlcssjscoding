@@ -1,6 +1,6 @@
 /*var arry=[3,2,4,1,5,6,];
 arry[arry.length]=7;
-console.log(arry);*/
+console.log(arry);
 
 function arrpush_small() {
     var arr1 = [];
@@ -42,4 +42,11 @@ function arrlen_large() {
     {
         arr2[arr2.length] = 'elem' + j;
     }
-}
+}*/
+
+var arr=[1,4,2,5,3,6,9,7,8];
+
+//arr=arr.sort();
+//arr=arr.concat(3,5);
+arr=arr.math(sqrt);
+console.log(arr);
