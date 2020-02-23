@@ -8,9 +8,9 @@
 	<form onsubmit=" return validation()">
 		
 
-		UserName:<input type="text" value="" name="username.... " id="user" required> <span id="username"></span> <br> <br>
+		UserName:<input type="text" value="" name="username.... " id="user" > <span id="username"></span> <br> <br>
 
-	    Password:<input type="text" value="" name="password.... " id="pass" required> <span id="password"></span>
+	    Password:<input type="text" value="" name="password.... " id="pass" > <span id="password"></span>
 	    <br><br>
 	    <input type="submit" name="submit">
 	</form>
@@ -24,12 +24,12 @@
 			var x=document.getElementById("user").value;
 			var y=document.getElementById("pass").value;
 
-			if (x=="") {
+			if (x==" ") {
 
 				document.getElementById("username").innerHTML="plz fill username";
 				return false;
 			           }
-			if(y==""){
+			if(y==" "){
 				document.getElementById("password").innerHTML="plz fill password";			
 				return false;
 			         }
