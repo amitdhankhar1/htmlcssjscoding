@@ -1,0 +1,15 @@
+#img1{
+    height: 60px;
+    width: 60px;
+    color: RED;
+}
+#inputname{
+
+    width: 100px;
+
+}
+#div1{
+
+    grid-gap=10px;
+}
+

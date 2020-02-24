@@ -1,2 +1,2 @@
-const server=require('express');
+const server = Require('express');
 const app=server();
